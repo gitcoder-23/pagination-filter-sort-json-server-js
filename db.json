@@ -1,0 +1,165 @@
+{
+  "users": [
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "1",
+      "status": "Active"
+    },
+    {
+      "username": "Mona",
+      "email": "mona@yahoo.com",
+      "phone": "7875645353",
+      "address": "London",
+      "id": "2",
+      "status": "Inactive"
+    },
+    {
+      "username": "Vicky",
+      "email": "vicky@zapak.com",
+      "phone": "9433645353",
+      "address": "Australia",
+      "id": "3",
+      "status": "Active"
+    },
+    {
+      "username": "Moana",
+      "email": "moana@gmail.com",
+      "phone": "8975645353",
+      "address": "America",
+      "id": "4",
+      "status": "Active"
+    },
+    {
+      "username": "Parbez",
+      "email": "perbez@yahoo.com",
+      "phone": "7685645353",
+      "address": "Pakisthan",
+      "id": "5",
+      "status": "Active"
+    },
+    {
+      "username": "Robart",
+      "email": "robart@gmail.com",
+      "phone": "9875645353",
+      "address": "Holand",
+      "id": "6",
+      "status": "Inactive"
+    },
+    {
+      "username": "Aleen",
+      "email": "aleen@yahoo.com",
+      "phone": "3475645353",
+      "address": "Verginia",
+      "id": "7",
+      "status": "Active"
+    },
+    {
+      "username": "Manav",
+      "email": "manav@yahoo.com",
+      "phone": "7735645353",
+      "address": "Alaska",
+      "id": "8",
+      "status": "Active"
+    },
+    {
+      "username": "Loriya",
+      "email": "loriya@yahoo.com",
+      "phone": "2375645353",
+      "address": "America",
+      "id": "9",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "10",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "11",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "12",
+      "status": "Active"
+    },
+
+    {
+      "username": "John Vogan",
+      "email": "vogan@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "23",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "24",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "25",
+      "status": "Active"
+    },
+    {
+      "username": "John",
+      "email": "john@yahoo.com",
+      "phone": "9875645353",
+      "address": "UK",
+      "id": "26",
+      "status": "Active"
+    },
+    {
+      "username": "Ayzak",
+      "email": "ayzak@yahoo.com",
+      "phone": "7655645353",
+      "address": "Morokko",
+      "id": "27",
+      "status": "Inactive"
+    },
+    {
+      "username": "Baroon",
+      "email": "baroon@yahoo.com",
+      "phone": "9875645453",
+      "address": "Toronto",
+      "id": "28",
+      "status": "Active"
+    },
+    {
+      "username": "Daniyal",
+      "email": "daniyal@yahoo.com",
+      "phone": "5465645353",
+      "address": "UK",
+      "id": "29",
+      "status": "Active"
+    },
+    {
+      "username": "Kushal",
+      "email": "kushal@yahoo.com",
+      "phone": "92375645353",
+      "address": "Newzeland",
+      "id": "30",
+      "status": "Inactive"
+    }
+  ]
+}
