@@ -20,7 +20,7 @@
   "scripts": {
     "start": "react-scripts start",
     "local-build": "react-scripts build",
-    "build": "CI= react-scripts build",
+    "build": "CI= concurrently \"npm start\" \"json-server --watch db.json --port 5000\" \"react-scripts build\"",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "json-server --watch db.json --port 5000",
