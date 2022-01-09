@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+.pagenumbers {
+  list-style: none;
+  display: flex;
+}
+
+.pagenumbers li {
+  padding: 5px;
+  /* border: 1px solid #fff; */
+  cursor: pointer;
+}
+
+.pagenumbers li.active {
+  background-color: rgb(182, 57, 57);
+  border: 1px solid #000;
+  color: #fff;
+}
+.initialCls {
+  cursor: initial !important;
+}
+.pointerCls {
+  cursor: pointer !important;
+}
