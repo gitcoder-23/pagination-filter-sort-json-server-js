@@ -7,6 +7,7 @@ import {
   MDBBtn,
 } from 'mdb-react-ui-kit';
 import '../App.css';
+import axios from 'axios';
 
 function PaginationT2() {
   const [allTodos, setAllTodos] = useState([]);
@@ -63,9 +64,17 @@ function PaginationT2() {
   };
 
   useEffect(() => {
-    fetch('https://jsonplaceholder.typicode.com/todos')
-      .then((response) => response.json())
-      .then((json) => setAllTodos(json));
+    // fetch('https://jsonplaceholder.typicode.com/todos')
+    //   .then((response) => response.json())
+    //   .then((json) => setAllTodos(json));
+    axios
+      .get(`https://jsonplaceholder.typicode.com/todos`)
+      .then((allTodos) => {
+        setAllTodos(allTodos.data.reverse());
+      })
+      .catch((err) => {
+        console.error(err);
+      });
   }, []);
 
   const handleNextbtn = () => {
@@ -146,9 +155,9 @@ function PaginationT2() {
               </MDBBtn>
             </li>
           </ul>
-          <button onClick={handleLoadMore} className="loadmore">
+          <MDBBtn onClick={handleLoadMore} className="loadmore">
             Load More
-          </button>
+          </MDBBtn>
         </MDBContainer>
       </>
     </>
