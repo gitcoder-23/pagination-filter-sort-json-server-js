@@ -32,6 +32,11 @@ const Header = () => {
                   PaginationT2
                 </NavLink>
               </li>
+              <li className="nav-item">
+                <NavLink className="nav-link" to="/infinitescroll">
+                  InfiniteScroll
+                </NavLink>
+              </li>
             </ul>
 
             {/* <div className="buttons">
