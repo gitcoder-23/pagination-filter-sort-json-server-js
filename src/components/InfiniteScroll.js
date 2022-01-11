@@ -68,7 +68,7 @@ const InfiniteScroll = () => {
             }
           }
         },
-        { threshold: 1 }
+        { threshold: 1 } // The Function triggers when you can see 100% & 50%(0.5) of the Element
       );
 
       observer.observe(pageEnd.current);
